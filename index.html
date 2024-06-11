@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header></header>
+        <main>
+            
+            
+            <div class="container">
+                <div class="calculator-exterior">
+                    
+                    <!-- FOR THE SCREEN -->
+                    <div class="caclulator-screen">
+                        <p class="calculator-display" id="display"> Test</p>
+                    </div>
+                    <br>
+                    <!-- BUTTONS -->
+                    <div class="grid-container">
+                        <!-- THIS IS FOR THE CALCULATOR BUTTONS -->
+                        <div class="grid-numbers-container">
+                            <div class="numbers" id="number-7" onclick="numberSeven()">7</div>
+                            <div class="numbers" id="number-8" onclick="numberEight()">8</div>
+                            <div class="numbers" id="number-9" onclick="numberNine()">9</div>
+                            <div class="numbers" id="number-4" onclick="numberFour()">4</div>
+                            <div class="numbers" id="number-5" onclick="numberFive()">5</div>
+                            <div class="numbers" id="number-6" onclick="numberSix()">6</div>
+                            <div class="numbers" id="number-1" onclick="numberOne()">1</div>
+                            <div class="numbers" id="number-2" onclick="numberTwo()">2</div>
+                            <div class="numbers" id="number-3" onclick="numberThree()">3</div>
+                            <div class="numbers" id="number-0" onclick="numberZero()">0</div>
+                            <div class="numbers" id="decimal-point" onclick="decimalPoint()">.</div>
+                        </div>
+                        <div class="grid-operations-container">
+                            <div class="operations" onclick="addSymbol()">+</div>
+                            <div class="operations" onclick="subtractSymbol()">-</div>
+                            <div class="operations" onclick="multiplySymbol()"><p>*</p></div>
+                            <div class="operations" onclick="divideSymbol()">/</div>
+                            <div class="operations" onclick="equalSymbol()">=</div>
+                        </div>
+                        <div class="grid-special-buttons-container">
+                            <div class="special-buttons">A/C</div>
+                            <div class="special-buttons">-/+</div>
+                            <div class="special-buttons">%</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </main>
+        <footer></footer>
+        
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
